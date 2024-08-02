@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+    box-sizing: border-box;
+}
+
+.inputContainer{
+    width: 60%;
+    margin-top: 5vh;
+}
+
+.inputBox{
+    width: 90%;
+    height: 7vh;
+    font-size: 20px;
+    padding-left: 20px;
+    border: none;
+    outline: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: white;
+    color: grey;
+    opacity: .4;
+}
+
+.inputSubmitBtn{
+    width: 10%;
+    height: 7vh;
+    font-size: 20px;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(21, 106, 21);
+    color: white;
+    cursor: pointer;
+}

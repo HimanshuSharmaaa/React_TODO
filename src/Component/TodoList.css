@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+    box-sizing: border-box;
+}
+
+.TodoListContainer{
+    margin-top: 20px;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.listItem{
+    height: 8vh;
+    background-color: #ccbed7;
+    padding: 0px 20px;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.listInputBox{
+    min-width: 83%;
+    min-height: 6vh;
+    font-size: 20px;
+    padding-left: 10px;
+    background-color: #ccbed7;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.list-Item-Img{
+    height: 100%;
+    border-radius: 10px;
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#UpdateBtn{
+    height: 6vh;
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#deleteBtn{
+    height: 6vh;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.line-through{
+    text-decoration: line-through;
+    text-decoration-color: black;
+}
+
+.bgGreen{
+    background-color: #c6e9a7;
+}
+
+.bgGrey{
+    background-color: grey;
+}
+
+.border{
+    border: 1px solid black;
+}
